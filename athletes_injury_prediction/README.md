@@ -7,6 +7,7 @@ This project predicts potential injuries in athletes using physiological and act
 ## 📁 Project Structure
 
 📂 athlete-injury-prediction
+
 ├── dataset_preparation.py # Merges and processes raw datasets
 
 ├── lstm.py # LSTM model for injury prediction
