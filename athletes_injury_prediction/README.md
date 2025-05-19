@@ -32,7 +32,7 @@ This project predicts potential injuries in athletes using physiological and act
 
 3. Run the script:
    ```bash
-   python dataset_preparation.py
+   dataset_preparation.py
 
 This will generate a cleaned and feature-enriched merged_athlete_data.csv
 
