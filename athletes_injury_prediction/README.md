@@ -37,7 +37,9 @@ This project predicts potential injuries in athletes using physiological and act
 This will generate a cleaned and feature-enriched merged_athlete_data.csv
 
 🚀 Models
+
 📌 lstm.py
+
 Uses LSTM to predict injuries from time-series data.
 
 Includes full model training, evaluation (accuracy, precision, recall, F1, AUC), and plots (loss, confusion matrix, ROC).
@@ -45,6 +47,7 @@ Includes full model training, evaluation (accuracy, precision, recall, F1, AUC),
 Saves the model as athlete_injury_lstm_model.h5.
 
 📌 gru.py
+
 Similar to the LSTM model but uses a GRU-based architecture.
 
 Outputs same metrics and visualizations.
@@ -52,6 +55,7 @@ Outputs same metrics and visualizations.
 Saves the model as athlete_injury_gru_model.h5.
 
 📌 softvoting_ensemble.py
+
 Loads both trained models.
 
 Averages predictions from LSTM and GRU (soft voting).
