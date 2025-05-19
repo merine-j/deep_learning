@@ -8,8 +8,11 @@ This project predicts potential injuries in athletes using physiological and act
 
 📂 athlete-injury-prediction
 ├── dataset_preparation.py # Merges and processes raw datasets
+
 ├── lstm.py # LSTM model for injury prediction
+
 ├── gru.py # GRU model for injury prediction
+
 ├── softvoting_ensemble.py # Combines LSTM and GRU using soft voting
 
 
